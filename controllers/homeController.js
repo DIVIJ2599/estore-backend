@@ -7,12 +7,3 @@ exports.home = BigPromise((req,res)=>{
         greetings: "Hello"
     })
 })
-
-/*
-exports.home = try{(req,res)=>{
-    res.status(200).json({
-        success: true,
-        greetings: "Hello"
-    })
-}}
-*/
